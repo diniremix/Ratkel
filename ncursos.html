@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Acerca de RatKel</title>
+    <title>Nuevo Curso</title>
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
     <link rel="shortcut icon" href="favicon.ico"/>
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -26,26 +26,43 @@
     <script src="dist/ratchet.js"></script>
     <script src="js/docs.js"></script>
     <script src="js/fingerblast.js"></script>
+    <style type="text/css">
+        .welcome {
+          line-height: 1.5;
+          color: #555;
+        }
+    </style>
   </head>
   <body ontouchstart="">
 
 <!--Title bar and header-->
 <header class="bar-title">
-  <a class="button-prev" href="./index.html">
+  <a class="button-prev" href="index.html">
     Inicio
   </a>
-  <h1 class="title">Acerca de</h1>
+  <h1 class="title">Nuevo curso</h1>
 </header>
-<!--Title bar and header-->
-<!--about text-->
-<div class="content">
-    <div class="content-padded">
-      <p class="welcome">Gracias por usar RatKel.</p>
-      <p><strong>Creditos:</strong></p>
-      <p><strong>Ratchet</strong> Prototipo de aplicaciones moviles con HTML5, CSS y JS.</p>
-      <p><strong>Ratchet</strong> is licensed under the <a href="http://opensource.org/licenses/MIT">MIT License.</a></p>      
+
+  <div class="content">
+    <div class="form-wrapper">
+      <form>
+        <div class="input-group">
+          <div class="input-row">
+            <label>Nombre:</label>
+            <input type="text" placeholder="Sistemas operativos">
+          </div>
+          <div class="input-row">
+            <label>Horario:</label>
+            <input type="text" placeholder="8am - 10am">
+          </div>
+          <div class="input-row">
+            <label>Jornada:</label>
+            <input type="text" placeholder="">
+          </div>
+        </div>
+        <a class="button-positive button-block">Guardar</a>
+      </form>
     </div>
-</div>
-<!--about text-->
+  </div>
 </body>
 </html>

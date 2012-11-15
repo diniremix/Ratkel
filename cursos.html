@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>RatKel mobile app</title>
+    <title>Cursos ofertados</title>
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
     <link rel="shortcut icon" href="favicon.ico"/>
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -37,77 +37,47 @@
 
 <!--Title bar and header-->
 <header class="bar-title">
-  <h1 class="title">RatKel</h1>
-  <a class="button-next" href="about.html">
-    Acerca de
+  <a class="button-prev" href="index.html">
+    Inicio
   </a>
+  <h1 class="title">Cursos</h1>
 </header>
-<!--Title bar and header-->
+
+ <nav class="bar-standard bar-header-secondary">
+    <form>
+      <input type="search" placeholder="Busqueda de cursos">
+    </form>
+  </nav>
+
 <div class="content">
   <div class="content-padded">
-      <p class="welcome"><strong>RatKel</strong> es un sistema de implementaci&oacute;n academica usando HTML5, CSS y JS a travez de <strong>Ratchet.</strong> Bienvenidos!</p>
-    </div>
-
-<!--lista-->
-<ul class="list inset">
-  <li>
-    <a href="./about.html" data-transition="slide-in">
-      <strong>Cursos actuales</strong>
-      <span class="chevron"></span>
-    </a>
-  </li>
-  <li>
-    <a href="#">
-      <strong>Nuevos Cursos</strong>
-      <span class="chevron"></span>
-    </a>
-  </li>
-  <li>
-    <a href="#">
-      <strong>Nuevo estudiante</strong>
-      <span class="chevron"></span>
-    </a>
-  </li>
-  <li>
-    <a href="#">
-      <strong>Asistencia<strong>
-      <span class="chevron"></span>
-    </a>
-  </li>
-</ul>
-<!--lista-->
-</div>
-
-<!--Footer-->
-<nav class="bar-tab">
-  <ul class="tab-inner">    
-    <li class="tab-item active">
-      <a href="#">
-        <img class="tab-icon" src="img/icon-home.png">
-        <div class="tab-label">Inicio</div>
+    <p></p>
+  </div>
+  <ul class="list">
+    <li class="list-divider">Cursos Ofrecidos</li>
+    <li>
+      <a href="choose-theater.html">
+        <strong>Programacion I</strong>
+        <p>Lunes 6am - 8am</p>
+        <span class="chevron"></span>
       </a>
     </li>
-    <li class="tab-item">
-      <a href="#">
-        <img class="tab-icon" src="img/icon-profile.png">
-        <div class="tab-label">Estudiantes</div>
+    <li>
+      <a href="choose-theater.html" data-transition="slide-in">
+        <strong>Programacion II</strong>
+        <p>Martes 8am - 12am</p>
+        <span class="chevron"></span>
       </a>
     </li>
-    <li class="tab-item">
-      <a href="#">
-        <img class="tab-icon" src="img/icon-messages.png">
-        <div class="tab-label">Mensajes</div>
-      </a>
-    </li>
-    <li class="tab-item">
-      <a href="#">
-        <img class="tab-icon" src="img/icon-settings.png">
-        <div class="tab-label">Opciones</div>
+    <li>
+      <a href="choose-theater.html" data-transition="slide-in">
+        <strong>Desarrollo de app Web</strong>
+        <p>Sabados 12am - 5pm</p>
+        <span class="chevron"></span>
       </a>
     </li>
   </ul>
-</nav>
-<!--Footer-->
+</div>
 
 </body>
 </html>
