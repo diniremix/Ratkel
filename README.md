@@ -1,5 +1,5 @@
 ## Ratkel ##
-Ejemplo de uso de [**Ratchet**](https://github.com/maker/ratchet/)
+Ejemplo de uso de [**Ratchet**](https://github.com/maker/ratchet/) para el desarrollo de aplicaciones web movil.
 
 ### Como usar ###
 Clonar este repositorio y alojarlo en una carpeta conveniente
@@ -9,6 +9,7 @@ Clonar este repositorio y alojarlo en una carpeta conveniente
 ### Creditos ###
 [Ratchet](https://github.com/maker/ratchet/)
 Prototype mobile apps with simple HTML, CSS and JS components.
+
 [**Ratchet**](https://github.com/maker/ratchet/) is licensed under the [MIT License](http://opensource.org/licenses/MIT).
 
 ### Licencia ###
